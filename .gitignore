@@ -1,0 +1,8 @@
+# package
+node_modules/*
+
+# yarn
+yarn.lock
+
+# distribution 分发代码
+dist
