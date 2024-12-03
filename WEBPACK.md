@@ -9,3 +9,12 @@
 2. webpack 通过 loader, 将非JS模块编译, 使得依赖图中的所有资源也会进入打包, 最终放入/dist
 
 ## 管理输出
+1. 多入口
+2. 插件 html-webpack-plugin
+3. manifest??
+
+## 开发环境
+1. 客户端开发环境，搭配插件 webpack-dev-server
+2. 服务端开发环境，搭配插件 webpack-dev-middleware（两者有什么区别呢？）
+3. 设置 webpack mode
+4. 设置 source map（通过 devtool 字段）

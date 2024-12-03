@@ -10,6 +10,7 @@ module.exports = {
     filename: 'bundle.js', // 文件的名称
     path: path.resolve(__dirname, 'dist'), // 文件存放位置
     clean: true, // 每次构建时, 清空dist文件夹中的内容
+    publicPath: '/', // 服务端开发资源默认路径
   },
 
   // 资源模块
@@ -48,11 +49,14 @@ module.exports = {
     }),
   ],
 
-  // 开发配置
+  // source map
   devtool: 'inline-source-map',
+
+  // 客户端开发默认资源路径
   devServer: {
     static: './dist',
   },
+  // 多入口时配置
   // optimization: {
   //   runtimeChunk: 'single',
   // },
