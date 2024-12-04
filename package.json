@@ -1,0 +1,27 @@
+{
+  "name": "interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichimaruxsmile/interface.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichimaruxsmile/interface/issues"
+  },
+  "homepage": "https://github.com/ichimaruxsmile/interface#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "webpack": "^5.96.1"
+  },
+  "dependencies": {
+    "eslint": "^8.57.1"
+  }
+}
